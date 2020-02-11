@@ -14,9 +14,6 @@ Name of Tool:
 Country: 
 : Germany, Japan, South Korea, Sweden, UK, U.S.
 
-Disease: 
-: Car efficiency
-
 Year: 
 : 2014
 
