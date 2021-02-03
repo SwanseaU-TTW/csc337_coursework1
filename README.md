@@ -188,16 +188,18 @@ design.
 Create a directory with your student number. Then put the final pdf, all 
 markdown, and all data files used. Make sure it's laid out as:
 
-> <student number>
-> |- coursework.md
-> |- followup1.md
-> |- followup2.md
-> |- followup3.md
-> |- final.md
-> |- <studentnumber>.pdf
-> |- <datafile 1>
-> |- <datafile 2>
-> |- ...
+```
+<student number>
+|- coursework.md
+|- followup1.md
+|- followup2.md
+|- followup3.md
+|- final.md
+|- <studentnumber>.pdf
+|- <datafile 1>
+|- <datafile 2>
+|- ...
+```
 
 Then, zip this directory. Please create a **.zip file** and not a tar, gzip, or
 any other format. Make sure extracting this zip file properly recreates this
