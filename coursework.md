@@ -7,7 +7,7 @@ narrative-schemas:
   - coursework
 ---
 
-author: Your name (student number)
+uthor: Your name (student number)
 
 Before using these sets of documents, make sure you have everything installed
 correctly. Installation instructions are here:
