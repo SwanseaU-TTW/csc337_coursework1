@@ -19,25 +19,36 @@ rules:
   - description: Narrative discuss the aim/unique observation of the visualization.
     selector:
       label: aim
-    minimumOccurrances: 1
-    maximumOccurrances: 1
+    minimumOccurrences: 1
+    maximumOccurrences: 1
   - description: Narrative must contain the name of the visualization type.
     selector:
       label: vistype
-    minimumOccurrances: 1
-    maximumOccurrances: 1
+    minimumOccurrences: 1
+    maximumOccurrences: 1
   - description: Narrative must list visual mappings.
     selector:
       label: vismapping
-    minimumOccurrances: 1
-    maximumOccurrances: 1
+    minimumOccurrences: 1
+    maximumOccurrences: 1
   - description: Narrative must contain some discussion of data preparation (can just put N/A).
     selector:
       label: dataprep
-    minimumOccurrances: 1
-    maximumOccurrances: 1
+    minimumOccurrences: 1
+    maximumOccurrences: 1
   - description: Narrative must discuss limitations.
     selector:
       label: limitations
-    minimumOccurrances: 1
-    maximumOccurrances: 1
+    minimumOccurrences: 1
+    maximumOccurrences: 1
+
+styling:
+  css: |
+    .cw.narrative {
+      background-color: #cccccc;
+    }
+    .cw.narrative h2 {
+      background-color: #909090;
+      font-size: 1em;
+      margin-bottom: 0;
+    }
