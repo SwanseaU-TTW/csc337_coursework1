@@ -68,7 +68,7 @@ graphs might not be very insightful or aesthetically impressive. We resolve to
 do better (and maybe get a promotion)!
 
 
-# Coursework: A Real-World Challange (maximum marks 50)
+# Coursework: A Real-World Challenge (maximum marks 50)
 
 Your task is to use [literate visualization](https://www.gicentre.net/litvis)
 to produce **five different** visual designs which can convey some meaningful
@@ -99,7 +99,7 @@ parenthesis are the literate visualization labels to use to identify these in
 the source files:
 
 Aim (`aim`):
-: Things we can learn from the visualization, e.g, from this visualization
+: Things we can learn from the visualization, e.g., from this visualization
   we can see this pattern...
 
 Visual Design Type (`vistype`):
