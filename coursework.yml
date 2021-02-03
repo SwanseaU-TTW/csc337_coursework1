@@ -1,0 +1,43 @@
+labels:
+  - name: aim
+    paired:
+      htmlTemplate: <div class="cw narrative"><h2>What can we learn from the visualization?</h2><div>{{children}}</div></div>
+  - name: vistype
+    paired:
+      htmlTemplate: <div class="cw narrative"><h2>What is the name for the type of visualization(s) used?</h2><div>{{children}}</div></div>
+  - name: vismapping
+    paired:
+      htmlTemplate: <div class="cw narrative"><h2>What are all visual mappings used?</h2><div>{{children}}</div></div>
+  - name: dataprep
+    paired:
+      htmlTemplate: <div class="cw narrative"><h2>Was there any special data preparation done?</h2><div>{{children}}</div></div>
+  - name: limitations
+    paired:
+      htmlTemplate: <div class="cw narrative"><h2>What are the limitations of your design?</h2><div>{{children}}</div></div>
+
+rules:
+  - description: Narrative discuss the aim/unique observation of the visualization.
+    selector:
+      label: aim
+    minimumOccurrances: 1
+    maximumOccurrances: 1
+  - description: Narrative must contain the name of the visualization type.
+    selector:
+      label: vistype
+    minimumOccurrances: 1
+    maximumOccurrances: 1
+  - description: Narrative must list visual mappings.
+    selector:
+      label: vismapping
+    minimumOccurrances: 1
+    maximumOccurrances: 1
+  - description: Narrative must contain some discussion of data preparation (can just put N/A).
+    selector:
+      label: dataprep
+    minimumOccurrances: 1
+    maximumOccurrances: 1
+  - description: Narrative must discuss limitations.
+    selector:
+      label: limitations
+    minimumOccurrances: 1
+    maximumOccurrances: 1
