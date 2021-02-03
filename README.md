@@ -78,8 +78,10 @@ observation over and over).  For each design, fill out a literate visualization
 schema as discussed in
 <https://github.com/gicentre/litvis/blob/main/documents/tutorials/introduction/intro2.md>.
 
-There is a prepared set of files, complete some convenient npm commands to 
-create the pdf submission at 
+**You don't have to use elm-vegalite** for this coursework. You can use another
+tool, like Altair if you want. However, **you must include images and code in 
+the markdown files** to create your visualizations in whatever tool you used.
+There is a prepared set of files at
 <https://github.com/SwanseaU-TTW/csc337_coursework1>. 
 
 You are allowed and encouraged to further abstract the data, 
@@ -100,13 +102,13 @@ Aim (`aim`):
 : Things we can learn from the visualization, e.g, from this visualization
   we can see this pattern...
 
-Visual Design Type (`type`):
+Visual Design Type (`vistype`):
 : The name/type of the visual design
 
 Image:
 : The visualization itself as an image
 
-Visual Mappings (`mappings`): 
+Visual Mappings (`vismapping`): 
 : Each of the visual design mappings. Include the data mapping 
   information about color, shape, size, position (x,y axes), and any other 
   visual mappings. 
@@ -179,16 +181,39 @@ clear it with me first. **If not, you will receive a 0 for the assignment.**
 
 You are required to submit a document, which contains your name, student
 number, and **five narrative examples** with complete template information as
-in the example submission.  
+in the example submission.  *Make sure each of your visual design types is
+distinct.*  In other words, two Treemap layouts are two instances of one visual
+design.
 
-*Make sure each of your 
-visual design types is distinct.*  In other words, two Treemap
-layouts are two instances of one visual design.
+Create a directory with your student number. Then put the final pdf, all 
+markdown, and all data files used. Make sure it's laid out as:
+
+> <student number>
+> |- coursework.md
+> |- followup1.md
+> |- followup2.md
+> |- followup3.md
+> |- final.md
+> |- <studentnumber>.pdf
+> |- <datafile 1>
+> |- <datafile 2>
+> |- ...
+
+Then, zip this directory. Please create a **.zip file** and not a tar, gzip, or
+any other format. Make sure extracting this zip file properly recreates this
+directory.
 
 You are required to 
-upload a single PDF file of your report to Canvas. Any other file format
-(zip file, word, powerpoint, html, etc)
-is not acceptable and will be marked with 0 points.
+upload the zip file to Canvas. 
+
+## Creating a pdf from VS Code preview
+
+The easiest way I've found to create a pdf from the preview is:
+
+1) Right click on the preview window
+2) Select "Open in Browser" from the menu. Your web browser should open
+3) Use the print to pdf functionality of your browser
+4) Once you have all 5 of these, combine the pdfs together.
 
 ## Useful Links to Visualization Tools
 
@@ -196,18 +221,15 @@ Here is a list of visualization tools that you may use for this assignment.
 You can potentially use something else but you **must** clear it with me
 first.
 
-* Litvis (JS): <https://github.com/gicentre/litvis>
+* elm-vegalite (Elm): <https://github.com/gicentre/elm-vegalite>
 * Data Driven Documents (JS): <http://d3js.org/>
 * Vega (JS): <https://vega.github.io/vega/>
 * Altair (Python): <https://altair-viz.github.io/>
-* Matplotlib (Python): <https://matplotlib.org/>
-* ggplot (R): <https://ggplot2.tidyverse.org/>
-* Gadfly.jl (Julia): 
 * Lyra: <https://idl.cs.washington.edu/projects/lyra/> 
     (sort of an open-source version of Tableau)
-* Tableau: 
-    <http://www.tableausoftware.com/>
-    (free trial available)
+
+I've deliberately not included packages like ggplot and matplotlib in this list
+because it is not easy to produce interactive tools using them.
 
 To help you get started with litvis, there are a number of tutorials at
 <https://github.com/gicentre/litvis/tree/main/documents/tutorials>.
