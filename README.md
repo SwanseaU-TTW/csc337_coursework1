@@ -78,6 +78,8 @@ observation over and over).  For each design, fill out a literate visualization
 schema as discussed in
 <https://github.com/gicentre/litvis/blob/main/documents/tutorials/introduction/intro2.md>.
 
+Each visualization design you create should be in a separate markdown file.
+Thus you will have 5 files at the end.
 **You don't have to use elm-vegalite** for this coursework. You can use another
 tool, like Altair if you want. However, **you must include images and code in 
 the markdown files** to create your visualizations in whatever tool you used.
@@ -90,7 +92,7 @@ combining some attributes together,
 or add new data, e.g., cities, geographic regions. 
 In fact, you can do anything you like to the data and you are
 expected to make changes, e.g., perhaps combining some spreadsheets
-together or creating new spreadsheets.
+together, creating new spreadsheets, or gathering data from other sources.
 
 ## Description Template
 
@@ -173,9 +175,7 @@ of digital maps for visualization.
 
 # Submission
 
-You are required to select
-an appropriate visualization tool for 
-depicting the dataset concerned. Below is a list of possible tools that you
+Below is a list of possible tools that you
 can use. If you want to use a tool or technology not on this list then please
 clear it with me first. **If not, you will receive a 0 for the assignment.**
 
@@ -205,8 +205,8 @@ Then, zip this directory. Please create a **.zip file** and not a tar, gzip, or
 any other format. Make sure extracting this zip file properly recreates this
 directory.
 
-You are required to 
-upload the zip file to Canvas. 
+You are required to upload the zip file to Canvas. **If you only submit the
+code or the pdf then you will receive a mark of 0**
 
 ## Creating a pdf from VS Code preview
 
