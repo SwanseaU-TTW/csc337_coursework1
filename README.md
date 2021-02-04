@@ -227,11 +227,15 @@ first.
 * Data Driven Documents (JS): <http://d3js.org/>
 * Vega (JS): <https://vega.github.io/vega/>
 * Altair (Python): <https://altair-viz.github.io/>
-* Lyra: <https://idl.cs.washington.edu/projects/lyra/> 
-    (sort of an open-source version of Tableau)
+* VegaLite.jl (Julia): <https://github.com/queryverse/VegaLite.jl>
+* vegalite (R): <https://cran.r-project.org/web/packages/vegalite/index.html>
 
 I've deliberately not included packages like ggplot and matplotlib in this list
-because it is not easy to produce interactive tools using them.
+because it is not easy to produce interactive tools using them. 
+
+Tableau and [Lyra](https://idl.cs.washington.edu/projects/lyra/) are not
+included as I want you to have more experience with using code to generate
+visualizations. These are excellent tools for prototyping though!
 
 To help you get started with litvis, there are a number of tutorials at
 <https://github.com/gicentre/litvis/tree/main/documents/tutorials>.
